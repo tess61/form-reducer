@@ -31,15 +31,15 @@ function App() {
 
     <input value={mValue} onChange={(e) => setMValue(e.target.value)}/>
     <button onClick={() => dispatch(Mname(mValue))}>Dispatch</button>
-    <p>FirstName: {middleName}</p>
+    <p>MiddleName: {middleName}</p>
 
     <input value={aValue} onChange={(e) => setLAValue(e.target.value)}/>
     <button onClick={() => dispatch(Age(aValue))}>Dispatch</button>
-    <p>LastName: {age}</p>
+    <p>Age: {age}</p>
 
     <input value={pValue} onChange={(e) => setPValue(e.target.value)}/>
     <button onClick={() => dispatch(Profession(pValue))}>Dispatch</button>
-    <p>LastName: {profession}</p>
+    <p>Profession: {profession}</p>
     </div>
   );
 }
