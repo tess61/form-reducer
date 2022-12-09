@@ -1,3 +1,4 @@
+import './App.css';
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
@@ -19,7 +20,7 @@ function App() {
   const [aValue, setLAValue] = useState()
   const [pValue, setPValue] = useState()
   return (
-    <div>
+    <div className="App">
     <input value={value} onChange={(e) => setValue(e.target.value)}/>
     <button onClick={() => dispatch(name(value))}>Dispatch</button>
     <p>FirstName: {firstName}</p>

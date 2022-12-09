@@ -1,4 +1,4 @@
-export const Fname = (state ='sami' ,action) => {
+export const Fname = (state ='tesfa' ,action) => {
    switch(action.type){
     case "NAME": 
     return action.payload
@@ -6,7 +6,7 @@ export const Fname = (state ='sami' ,action) => {
         return state
    }
 }
-export const Lname = (state ='Kesero' ,action) => {
+export const Lname = (state ='melkamu' ,action) => {
    switch(action.type){
     case "LNAME": 
     return action.payload
@@ -14,7 +14,7 @@ export const Lname = (state ='Kesero' ,action) => {
         return state
    }
 }
-export const Mname = (state ='Woyesso' ,action) => {
+export const Mname = (state ='walle' ,action) => {
    switch(action.type){
     case "MNAME": 
     return action.payload
